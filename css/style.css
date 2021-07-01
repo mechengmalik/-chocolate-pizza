@@ -1,6 +1,115 @@
-#llogo{
-    position: absolute;
-    margin-top: 0;
-    margin-left: 0;
+body{
+    margin: 5%;
+}
+header{
+    height: 100px;
     
+    
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    border-bottom:30px solid rgb(226, 219, 219);
+}
+header p{
+    font-size: xx-small;
+
+}
+
+header h1{
+    font-size: 225%;
+    font-family: 'Yellowtail', cursive;
+    
+}
+header :nth-child(1){
+    float: left;
+}
+
+#rlogo{ position: absolute;
+    right: 0;
+    bottom: 50%;
+    float: right;
+    
+}
+#llogo{
+    width: 150%;
+}
+
+article{
+    padding-top: 5%;
+    clear: both;
+    
+   
+}
+#rart1{
+  float: right;
+  
+  
+}
+#lart1{
+    float: left;
+    
+}
+
+#lart1 h2{
+    font-family:fantasy;
+    font-size: xx-large;
+    margin-top: 
+}
+#lart1 p{
+    font-size:xx-small;
+}
+
+#container{
+    position: relative;
+    
+   
+}
+.leftl{
+    position:absolute;
+    top: 25%;
+    left: 15%;
+    font-size: 150%;
+    font-family: cursive;
+
+}
+#righl{
+    position: absolute;
+    right: 15%;
+    top: 25%;
+    font-size: 150%;
+    font-family: cursive;
+
+}
+#last{
+    position: relative;
+    margin-top: 5%;
+    border-top:30px solid rgb(226, 219, 219);
+}
+#last button{
+    
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    margin-right: 5%;
+
+    background-color: brown;
+    padding: 2%;
+}
+#last img{
+    float: left;
+}
+#last h4{
+    padding-left: 10%;
+    font-family: fantasy;
+    font-size: large;
+}
+#last p{
+    padding-left: 10%;
+    font-weight: 100;
+}
+footer{
+    border-top:solid;color: rgb(216, 214, 214);
+    /* border-top-color: rgba(255, 255, 255, 0.39); */
+    text-align: center;
+    margin-top: 10%;
 }
